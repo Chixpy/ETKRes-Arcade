@@ -11,7 +11,6 @@ Therefore, I'll note two things:
 1. Using files named with MAME style, only games will have images but not groups.
 2. Using this repository with MAME (or other compatible frontend) will not work at all.
 
-
 You can read more about media files in [Emuteca's Web Page](https://chixpy.github.io/Emuteca/pages/Media-Files.html) (but it's in spanish...)
 
 Actually, Emuteca **can** use MAME filenames. There is a script that create the arcade database from a MAME executable and that script can be modified to automatically set the parent's filename to group's mediafile. Another way; may be easier, it's to edit the arcade group database (.egl file, which is actually a .cvs) and copy ID column into Mediafilename's one. (Yes, Emuteca internally uses MAME id as internal group id)
@@ -28,10 +27,10 @@ In more than 20 years... Nobody thinked about it? A simply fallback to parent se
 
 And... I don't answer the question yet, LOL.
 
-Well, in the beggining, Emuteca took care about using MAME standard filename schema. But after thinking about, this way can assign more than one image to a group, files are easyly identified by filename, we don't care if a game file id is changed in MAME, etc.
+Well, in the beggining, Emuteca took care about using MAME standard filename schema. But after thinking about, this way we can assign more than one image to a group, files are easyly identified by filename, we don't care if a game file id is changed in MAME, etc.
 
 - ***Note:***
-  - Files used directly by MAME like Artwork or Samples, are keep with its MAME filenames, obviously. They don't are interesting for Emuteca (Artworks maybe a little...)
+  - Files used directly by MAME, like Artwork or Samples, must have their MAME filenames, obviously. They don't are interesting for Emuteca anyways (Artworks maybe a little..., but there are artwork preview images)
 
 ### And Main Boards, Flyers, and other no-console stuff?
 
