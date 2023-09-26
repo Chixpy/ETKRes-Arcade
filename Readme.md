@@ -48,7 +48,7 @@ But, you can run many systems as is, without any software (microcomputers); and 
 
 Use GIT to clone the repository or download it in zip:
 
-https://github.com/Chixpy/ETKRes-Arcade/archive/master.zip
+https://github.com/Chixpy/ETKRes-Arcade/archive/main.zip
 
 ## About Images
 
